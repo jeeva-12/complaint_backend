@@ -12,4 +12,9 @@ export class ApiService {
   {
     return this.http.post("http://localhost:8080/userLogin",data)
   }
+
+  userRsg=(data:any)=>
+  {
+    return this.http.post("http://localhost:8080/userReg",data)
+  }
 }

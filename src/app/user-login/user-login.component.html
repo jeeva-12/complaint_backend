@@ -7,21 +7,21 @@
                 </div>
                 <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
                     <label for="" class="form-label">Username</label>
-                    <input name="username" ([ngModel])="username" type="text" class="form-control">
+                    <input name="username" [(ngModel)]="username" type="text" class="form-control">
                 </div>
                 <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
                     <label for="" class="form-label">Password</label>
-                    <input name="password" ([ngModel])="password" type="password"  class="form-control">
+                    <input name="password" [(ngModel)]="password" type="password"  class="form-control">
                 </div>
                 <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 text-center">
                     <button (click)="readvalues()" class="btn btn-info">User Login</button>
                 </div>
                 <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 text-center mt-3">
                     <button class="btn btn-dark" routerLink="/">Administator Login</button>
-                    <button class="btn btn-dark">User Resigration</button>
+                    
                 </div>
                 <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 text-center mt-3">      
-                    <button class="btn btn-dark">User Resigration</button>
+                    <button class="btn btn-dark" routerLink="/userrsg">User Resigration</button>
                 </div>
             </div>
         </div>

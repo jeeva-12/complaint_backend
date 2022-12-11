@@ -20,6 +20,8 @@ export class UserLoginComponent {
     this.api.userlogin(data).subscribe(
       (response:any)=>{
         if(response.status =="success"){
+          localStorage.setItem("UserInfo",response.userId)
+          
           alert("login success")
         }else{
           alert("login failed")

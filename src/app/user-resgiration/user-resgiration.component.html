@@ -1,0 +1,42 @@
+<div class="container">
+    <div class="row">
+        <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+            <div class="rom gt-4 mt-3">
+                <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 text-center">
+                    <h1>User Registration</h1>
+                </div>
+                <div class="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                    <label for="" class="form-label">Name</label>
+                    <input  type="text" class="form-control" name="name" [(ngModel)]="name">
+                </div>
+                <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                    <label for="" class="form-label">Address</label>
+                    <textarea name="" id="" cols="30" rows="10" class="form-control" name="address" [(ngModel)]="address"></textarea>
+                </div>
+                <div class="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                    <label for="" class="form-label">Phone Number</label>
+                    <input  type="text" class="form-control" name="mobile" [(ngModel)]="mobile">
+                </div>
+                <div class="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                    <label for="" class="form-label">Email</label>
+                    <input name="email" [(ngModel)]="email" type="email" class="form-control">
+                </div>
+                <div class="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                    <label for="" class="form-label">Username</label>
+                    <input name="username" [(ngModel)]="username" type="text" class="form-control">
+                </div>
+                <div class="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                    <label for="" class="form-label">Password</label>
+                    <input name="password" [(ngModel)]="password" type="password"  class="form-control">
+                </div>
+                <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 text-center mt-4">
+                    <button (click)="readvalues()" class="btn btn-info">User Resigration</button>
+                </div>
+                
+                <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 text-center mt-3">      
+                    <button class="btn btn-dark" routerLink="/userlogin">User Login</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
