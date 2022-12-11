@@ -3,7 +3,7 @@
         <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
             <div class="rom gt-4 mt-3">
                 <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 text-center">
-                    <h1>Adminstrator Login</h1>
+                    <h1>User Login</h1>
                 </div>
                 <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
                     <label for="" class="form-label">Username</label>
@@ -13,11 +13,15 @@
                     <label for="" class="form-label">Password</label>
                     <input name="password" ([ngModel])="password" type="password"  class="form-control">
                 </div>
-                <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-                    <button (click)="readvalue()" class="btn btn-info">Admin Login</button>
+                <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 text-center">
+                    <button (click)="readvalues()" class="btn btn-info">User Login</button>
                 </div>
                 <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 text-center mt-3">
-                    <button class="btn btn-dark" routerLink="/userlogin">UserLogin</button>
+                    <button class="btn btn-dark" routerLink="/">Administator Login</button>
+                    <button class="btn btn-dark">User Resigration</button>
+                </div>
+                <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 text-center mt-3">      
+                    <button class="btn btn-dark">User Resigration</button>
                 </div>
             </div>
         </div>

@@ -7,4 +7,9 @@ import { Injectable } from '@angular/core';
 export class ApiService {
 
   constructor(private http:HttpClient) { }
+
+  userlogin=(data:any)=>
+  {
+    return this.http.post("http://localhost:8080/userLogin",data)
+  }
 }
