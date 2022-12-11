@@ -8,6 +8,7 @@ import { FormsModule } from '@angular/forms';
 import { RouterModule, Routes } from '@angular/router';
 import {HttpClientModule} from '@angular/common/http';
 import { UserLoginComponent } from './user-login/user-login.component';
+import { UserResgirationComponent } from './user-resgiration/user-resgiration.component';
 
 const myRoutes:Routes =[
   {
@@ -17,13 +18,18 @@ const myRoutes:Routes =[
   {
     path:"userlogin",
     component:UserLoginComponent
+  },
+  {
+    path:"userrsg",
+    component:UserResgirationComponent
   }
 ]
 @NgModule({
   declarations: [
     AppComponent,
     AdminLoginComponent,
-    UserLoginComponent
+    UserLoginComponent,
+    UserResgirationComponent
   ],
   imports: [
     BrowserModule,
